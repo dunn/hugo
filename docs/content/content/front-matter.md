@@ -86,10 +86,16 @@ Field names are always normalized to lowercase (e.g. `camelCase: true` is availa
 * **type** The type of the content (will be derived from the directory automatically if unset)
 * **weight** Used for sorting
 * **markup** (Experimental) Specify "rst" for reStructuredText (requires
-            `rst2html`,) or "md" (default) for the Markdown
-* **slug** The token to appear in the tail of the URL
+            `rst2html`) or "md" (default) for Markdown
+* **slug** The token to appear in the tail of the URL,
    *or*<br>
 * **url** The full path to the content from the web root.<br>
 
-*If neither slug or url is present, the filename will be used.*
+*If neither `slug` or `url` is present, the filename will be used.*
+
+## Configure Blackfriday rendering
+
+It's possible to set some options for Markdown rendering in the page's front matter, as an override to the site wide configuration.
+
+See [Configuration]({{< ref "overview/configuration.md#configure-blackfriday-rendering" >}}) for more.
 

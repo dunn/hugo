@@ -141,7 +141,7 @@ I simply changed:
 
 to this (this example uses a slightly extended version named `fig`, different than the built-in `figure`):
 
-    {{% fig class="full" src="http://farm5.staticflickr.com/4136/4829260124_57712e570a_o_d.jpg" title="One of my favorite touristy-type photos. I secretly waited for the good light while we were having fun and took this. Only regret: a stupid pole in the top-left corner of the frame I had to clumsily get rid of at post-processing." link="http://www.flickr.com/photos/alexnormand/4829260124/in/set-72157624547713078/" %}}
+    {{%/* fig class="full" src="http://farm5.staticflickr.com/4136/4829260124_57712e570a_o_d.jpg" title="One of my favorite touristy-type photos. I secretly waited for the good light while we were having fun and took this. Only regret: a stupid pole in the top-left corner of the frame I had to clumsily get rid of at post-processing." link="http://www.flickr.com/photos/alexnormand/4829260124/in/set-72157624547713078/" */%}}
 
 As a bonus, the shortcode named parameters are, arguably, more readable. 
 
@@ -152,5 +152,5 @@ Depending on the amount of customization that was done with each post with Jekyl
 ### Clean up
 You'll want to remove the Jekyll configuration at this point. If you have anything else that isn't used, delete it. 
 
-## A pratical example in a diff
+## A practical example in a diff
 [Hey, it's Alex](http://heyitsalex.net) was migrated in less than a _father-with-kids day_ from Jekyll to Hugo. You can see all the changes (and screw-ups) by looking at this [diff](https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610).
